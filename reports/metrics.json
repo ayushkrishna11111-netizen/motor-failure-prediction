@@ -1,0 +1,53 @@
+{
+  "model": "Random Forest Classifier",
+  "test_samples": 1000,
+  "accuracy": 0.998,
+  "macro_precision": 0.9949,
+  "macro_recall": 0.9949,
+  "macro_f1": 0.9949,
+  "weighted_f1": 0.998,
+  "per_class": {
+    "NORMAL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 705
+    },
+    "WARNING": {
+      "precision": 0.9949,
+      "recall": 0.9949,
+      "f1_score": 0.9949,
+      "support": 196
+    },
+    "FAILURE RISK": {
+      "precision": 0.9899,
+      "recall": 0.9899,
+      "f1_score": 0.9899,
+      "support": 99
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "NORMAL",
+      "WARNING",
+      "FAILURE RISK"
+    ],
+    "matrix": [
+      [
+        705,
+        0,
+        0
+      ],
+      [
+        0,
+        195,
+        1
+      ],
+      [
+        0,
+        1,
+        98
+      ]
+    ]
+  }
+}

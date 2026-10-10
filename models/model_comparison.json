@@ -1,0 +1,18 @@
+{
+  "Random Forest": {
+    "accuracy": 0.998,
+    "macro_f1": 0.9949
+  },
+  "Decision Tree": {
+    "accuracy": 0.997,
+    "macro_f1": 0.9939
+  },
+  "Logistic Regression": {
+    "accuracy": 0.998,
+    "macro_f1": 0.9964
+  },
+  "SVM (RBF)": {
+    "accuracy": 0.999,
+    "macro_f1": 0.9975
+  }
+}
